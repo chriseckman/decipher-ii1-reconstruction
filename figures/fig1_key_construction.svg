@@ -1,0 +1,25 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='330' viewBox='0 0 900 330'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450.0' y='26.0' font-size='14' text-anchor='middle' font-weight='bold' fill='#222' font-family='Helvetica, Arial, sans-serif'>Two-way numbering of the 492-letter source (984 key slots)</text>
+<rect x='70.0' y='104.0' width='760.0' height='26.0' fill='#e8eef7' stroke='#4a78b5'/>
+<text x='76.0' y='122.0' font-size='12' text-anchor='start' font-weight='bold' fill='#222' font-family='Helvetica, Arial, sans-serif'>T H O S E T O W H O M T  ...</text>
+<text x='824.0' y='122.0' font-size='12' text-anchor='end' font-weight='bold' fill='#222' font-family='Helvetica, Arial, sans-serif'>...  T T L E R E G A R D E D</text>
+<text x='62.0' y='122.0' font-size='14' text-anchor='end' font-weight='bold' fill='#222' font-family='Helvetica, Arial, sans-serif'>S</text>
+<text x='70.0' y='96.0' font-size='11' text-anchor='start' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>source position 1</text>
+<text x='830.0' y='96.0' font-size='11' text-anchor='end' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>492</text>
+<text x='450.0' y='96.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#555' font-family='Helvetica, Arial, sans-serif'>Gulliver's Travels III.2 (Alden witness, 1911 copyright, p. 97): 492 A-Z letters</text>
+<line x1='70.0' y1='190.0' x2='830.0' y2='190.0' stroke='#1f4e79' stroke-width='2.2'/>
+<polyline points='820.0,184.0 830.0,190.0 820.0,196.0' fill='none' stroke='#1f4e79' stroke-width='2.2'/>
+<text x='70.0' y='182.0' font-size='12' text-anchor='start' font-weight='normal' fill='#1f4e79' font-family='Helvetica, Arial, sans-serif'>n = 1</text>
+<text x='830.0' y='182.0' font-size='12' text-anchor='end' font-weight='normal' fill='#1f4e79' font-family='Helvetica, Arial, sans-serif'>n = 492</text>
+<text x='450.0' y='182.0' font-size='12' text-anchor='middle' font-weight='normal' fill='#1f4e79' font-family='Helvetica, Arial, sans-serif'>forward half: key slot n names source position n</text>
+<line x1='830.0' y1='250.0' x2='70.0' y2='250.0' stroke='#7c7c7c' stroke-width='2.2'/>
+<polyline points='80.0,244.0 70.0,250.0 80.0,256.0' fill='none' stroke='#7c7c7c' stroke-width='2.2'/>
+<text x='830.0' y='242.0' font-size='12' text-anchor='end' font-weight='normal' fill='#7c7c7c' font-family='Helvetica, Arial, sans-serif'>n = 493</text>
+<text x='70.0' y='242.0' font-size='12' text-anchor='start' font-weight='normal' fill='#7c7c7c' font-family='Helvetica, Arial, sans-serif'>n = 984</text>
+<text x='450.0' y='242.0' font-size='12' text-anchor='middle' font-weight='normal' fill='#7c7c7c' font-family='Helvetica, Arial, sans-serif'>reversed half: key slot n names source position 985 - n</text>
+<line x1='838.0' y1='190.0' x2='838.0' y2='250.0' stroke='#555' stroke-width='1.2' stroke-dasharray='4,3'/>
+<text x='826.0' y='224.0' font-size='11' text-anchor='end' font-weight='normal' fill='#555' font-family='Helvetica, Arial, sans-serif'>turnaround: slots 492 and 493 both name source position 492</text>
+<text x='450.0' y='300.0' font-size='12' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>Decryption: plaintext letter i = K[c_i], with K[n] = S[n] for n &lt;= 492 and K[n] = S[985 - n] for n &gt;= 493.</text>
+<text x='450.0' y='318.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#555' font-family='Helvetica, Arial, sans-serif'>Each source position has two key slots (n and 985 - n), including position 492 at slots 492 and 493.</text>
+</svg>

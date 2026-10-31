@@ -1,0 +1,44 @@
+name: Public verification
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: ${{ matrix.os }} / Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.10', '3.x']
+    env:
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONOPTIMIZE: '0'
+    steps:
+      - name: Check out public source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python-version }}
+          allow-prereleases: false
+          check-latest: true
+      - name: Record interpreter and check help
+        run: |
+          python --version
+          python -B decode.py --help
+      - name: Check pristine public release inventory
+        run: python -B code/check_manifest.py
+      - name: Check public source/key integrity
+        run: python -B code/check_public_materials.py
+      - name: Run synthetic and regression tests
+        run: python -B -m unittest discover -s code -p "test_public_*.py" -v

@@ -1,0 +1,41 @@
+{
+  "source": {
+    "creator": "Karen Kavett",
+    "title": "Decipher II and III Puzzles",
+    "section": "Puzzle 2-1",
+    "url": "https://docs.google.com/document/d/1SDRvq1iRa3oLxaSSMoG_iy1klczI2tFsN7gvgDl7pcE/edit",
+    "saved_export_retrieval_utc": "2026-10-11T04:19:04Z",
+    "public_access_recheck_date_utc": "2026-10-13",
+    "export_sha256": "d960bac80bde8ba9a752b100bd489c6c3d8c61e6eb9012496339e9ad9cda1e65",
+    "public_access_verified": true,
+    "sequence_matches_preserved_original": true
+  },
+  "original_input": {
+    "count": 314,
+    "sha256": "1e60d5d63422148b385abfd0569edb1c709308eb79d51e4195b6c8a781be2edc",
+    "bytes": 1530,
+    "encoding": "ASCII",
+    "serialization": "(', '.join(str(n) for n in numbers) + '.\\n').encode('ascii')",
+    "separator": "comma followed by one ASCII space",
+    "terminal": "period followed by LF",
+    "BOM": false,
+    "CR": false,
+    "redistributed": false
+  },
+  "corrections": [
+    {
+      "position_one_based": 169,
+      "original": 330,
+      "working": 830,
+      "status": "probable; 330 competing"
+    },
+    {
+      "position_one_based": 306,
+      "original": 338,
+      "working": 388,
+      "status": "photograph-supported; prior public report credited to umbrellaid"
+    }
+  ],
+  "rights": "Public access is not redistribution permission. The numerical input, poem, ordered correspondence and source images are not included.",
+  "reproducibility": "Actual-message reproduction requires separately obtaining the source-referenced input. Historical full searches are not replayable from this package."
+}

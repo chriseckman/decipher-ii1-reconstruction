@@ -1,0 +1,32 @@
+# Interpreter/editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Reader-obtained historical input and generated local results
+numbers.txt
+numbers.csv
+DOWNLOADED_TRANSCRIPTION.txt
+ORIGINAL_TRANSCRIPTION.txt
+Decipher-II1-local-result/
+local-results/
+key_source_492.txt
+key_984.txt
+plaintext_literal_314.txt
+correspondence.csv
+verification.json
+
+# Local review, build and private material never belongs in a public release
+private/
+scratch/
+audit/
+review/
+build/
+*.tmp
+~$*

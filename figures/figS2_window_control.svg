@@ -1,0 +1,66 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='380' viewBox='0 0 900 380'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450.0' y='22.0' font-size='14' text-anchor='middle' font-weight='bold' fill='#222' font-family='Helvetica, Arial, sans-serif'>F1 histogram: 454,033 windows of the MY-restored Wikisource transcription</text>
+<line x1='80.0' y1='300.0' x2='640.0' y2='300.0' stroke='#222' stroke-width='1.0'/>
+<line x1='80.0' y1='50.0' x2='80.0' y2='300.0' stroke='#222' stroke-width='1.0'/>
+<line x1='80.0' y1='300.0' x2='80.0' y2='304.0' stroke='#222' stroke-width='1.0'/>
+<text x='80.0' y='317.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-9</text>
+<line x1='173.3' y1='300.0' x2='173.3' y2='304.0' stroke='#222' stroke-width='1.0'/>
+<text x='173.3' y='317.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-8</text>
+<line x1='266.7' y1='300.0' x2='266.7' y2='304.0' stroke='#222' stroke-width='1.0'/>
+<text x='266.7' y='317.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-7</text>
+<line x1='360.0' y1='300.0' x2='360.0' y2='304.0' stroke='#222' stroke-width='1.0'/>
+<text x='360.0' y='317.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-6</text>
+<line x1='453.3' y1='300.0' x2='453.3' y2='304.0' stroke='#222' stroke-width='1.0'/>
+<text x='453.3' y='317.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-5</text>
+<line x1='546.7' y1='300.0' x2='546.7' y2='304.0' stroke='#222' stroke-width='1.0'/>
+<text x='546.7' y='317.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-4</text>
+<line x1='640.0' y1='300.0' x2='640.0' y2='304.0' stroke='#222' stroke-width='1.0'/>
+<text x='640.0' y='317.0' font-size='11' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-3</text>
+<line x1='76.0' y1='300.0' x2='80.0' y2='300.0' stroke='#222' stroke-width='1.0'/>
+<text x='73.0' y='304.0' font-size='11' text-anchor='end' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>0</text>
+<line x1='76.0' y1='252.4' x2='80.0' y2='252.4' stroke='#222' stroke-width='1.0'/>
+<text x='73.0' y='256.4' font-size='11' text-anchor='end' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>1</text>
+<line x1='76.0' y1='204.8' x2='80.0' y2='204.8' stroke='#222' stroke-width='1.0'/>
+<text x='73.0' y='208.8' font-size='11' text-anchor='end' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>2</text>
+<line x1='76.0' y1='157.2' x2='80.0' y2='157.2' stroke='#222' stroke-width='1.0'/>
+<text x='73.0' y='161.2' font-size='11' text-anchor='end' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>3</text>
+<line x1='76.0' y1='109.6' x2='80.0' y2='109.6' stroke='#222' stroke-width='1.0'/>
+<text x='73.0' y='113.6' font-size='11' text-anchor='end' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>4</text>
+<line x1='76.0' y1='62.0' x2='80.0' y2='62.0' stroke='#222' stroke-width='1.0'/>
+<text x='73.0' y='66.0' font-size='11' text-anchor='end' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>5</text>
+<text x='360.0' y='336.0' font-size='12' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>language-model score, bits per letter (higher = more English-like)</text>
+<text x='34.0' y='175.0' font-size='12' text-anchor='middle' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif' transform='rotate(-90 34.0 175.0)'>log10(windows + 1)</text>
+<rect x='332.5' y='285.7' width='3.7' height='14.3' fill='#7f8c9a' stroke='none'/>
+<rect x='337.2' y='242.7' width='3.7' height='57.3' fill='#7f8c9a' stroke='none'/>
+<rect x='341.8' y='206.7' width='3.7' height='93.3' fill='#7f8c9a' stroke='none'/>
+<rect x='346.5' y='165.4' width='3.7' height='134.6' fill='#7f8c9a' stroke='none'/>
+<rect x='351.2' y='132.7' width='3.7' height='167.3' fill='#7f8c9a' stroke='none'/>
+<rect x='355.8' y='106.3' width='3.7' height='193.7' fill='#7f8c9a' stroke='none'/>
+<rect x='360.5' y='87.0' width='3.7' height='213.0' fill='#7f8c9a' stroke='none'/>
+<rect x='365.2' y='73.9' width='3.7' height='226.1' fill='#7f8c9a' stroke='none'/>
+<rect x='369.8' y='66.5' width='3.7' height='233.5' fill='#7f8c9a' stroke='none'/>
+<rect x='374.5' y='64.3' width='3.7' height='235.7' fill='#7f8c9a' stroke='none'/>
+<rect x='379.2' y='67.1' width='3.7' height='232.9' fill='#7f8c9a' stroke='none'/>
+<rect x='383.8' y='74.8' width='3.7' height='225.2' fill='#7f8c9a' stroke='none'/>
+<rect x='388.5' y='86.9' width='3.7' height='213.1' fill='#7f8c9a' stroke='none'/>
+<rect x='393.2' y='103.3' width='3.7' height='196.7' fill='#7f8c9a' stroke='none'/>
+<rect x='397.8' y='124.2' width='3.7' height='175.8' fill='#7f8c9a' stroke='none'/>
+<rect x='402.5' y='148.1' width='3.7' height='151.9' fill='#7f8c9a' stroke='none'/>
+<rect x='407.2' y='178.2' width='3.7' height='121.8' fill='#7f8c9a' stroke='none'/>
+<rect x='411.8' y='208.9' width='3.7' height='91.1' fill='#7f8c9a' stroke='none'/>
+<rect x='416.5' y='247.0' width='3.7' height='53.0' fill='#7f8c9a' stroke='none'/>
+<rect x='421.2' y='266.7' width='3.7' height='33.3' fill='#7f8c9a' stroke='none'/>
+<rect x='425.8' y='277.3' width='3.7' height='22.7' fill='#7f8c9a' stroke='none'/>
+<rect x='565.8' y='285.7' width='3.7' height='14.3' fill='#7f8c9a' stroke='none'/>
+<line x1='565.5' y1='60.0' x2='565.5' y2='300.0' stroke='#1f4e79' stroke-width='2'/>
+<text x='561.5' y='74.0' font-size='11' text-anchor='end' font-weight='normal' fill='#1f4e79' font-family='Helvetica, Arial, sans-serif'>true window -3.80 (rank 1)</text>
+<line x1='427.5' y1='92.0' x2='427.5' y2='300.0' stroke='#7c7c7c' stroke-width='1.5' stroke-dasharray='4,3'/>
+<text x='431.5' y='104.0' font-size='11' text-anchor='start' font-weight='normal' fill='#7c7c7c' font-family='Helvetica, Arial, sans-serif'>best other window -5.28</text>
+<text x='680.0' y='70.0' font-size='12' text-anchor='start' font-weight='bold' fill='#222' font-family='Helvetica, Arial, sans-serif'>Family comparison annotations</text>
+<text x='680.0' y='96.0' font-size='11' text-anchor='start' font-weight='normal' fill='#1f4e79' font-family='Helvetica, Arial, sans-serif'>-3.80  two-way letters (true rule)</text>
+<text x='680.0' y='118.0' font-size='11' text-anchor='start' font-weight='normal' fill='#1f4e79' font-family='Helvetica, Arial, sans-serif'>-3.86  same, uncorrected numbers</text>
+<text x='680.0' y='140.0' font-size='11' text-anchor='start' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-5.33  contiguous letters 1-984</text>
+<text x='680.0' y='162.0' font-size='11' text-anchor='start' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-5.49  two-way word initials</text>
+<text x='680.0' y='184.0' font-size='11' text-anchor='start' font-weight='normal' fill='#222' font-family='Helvetica, Arial, sans-serif'>-5.57  contiguous word initials</text>
+</svg>

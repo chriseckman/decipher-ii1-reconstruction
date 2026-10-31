@@ -1,0 +1,251 @@
+{
+  "schema": "ii1-public-file-manifest-v1",
+  "release_status": "SOFTWARE_RELEASE_1.0.0",
+  "source_baseline": "October 31 corrected reconstruction; final document formatting and author-approved license scopes; no cryptanalytic changes",
+  "self_hash_included": false,
+  "input_availability": "Obtain original numerical transcription separately; no complete historical input/output redistributed",
+  "licenses_applied": [
+    "MIT",
+    "CC-BY-4.0"
+  ],
+  "external_certification_claimed": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 113,
+      "sha256": "9efdd6aaaeb72565bfb0f7e3bd196e2038336f6f8dbc6404a9a8295b0e1db46e"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1330,
+      "sha256": "dce245bfeb44dd737f8f1134d461bf59badb721d4615ddd1849acd4f26cf051c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 522,
+      "sha256": "cb0bd83f94b734be9582e1493f4da43af84b82ac596329ee7ed33803faf61325"
+    },
+    {
+      "path": "aggregate_results.json",
+      "bytes": 1435,
+      "sha256": "5fa7a13520e3070bf88fdcf3358fdf9349efedded1e56368bb68c1b4a7d3459e"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1306,
+      "sha256": "14f20c8bd84743ef6f879e2e4a6112bd22c5a30f0f7479674a1a496806f7ce18"
+    },
+    {
+      "path": "code/check_manifest.py",
+      "bytes": 4355,
+      "sha256": "12848acadf75491f6e493d246e8776f24e4137f7c1dccc56784c41db2f58c508"
+    },
+    {
+      "path": "code/check_public_materials.py",
+      "bytes": 1234,
+      "sha256": "b1aa670dbdf325d3994001cdd05fcf209beb486cea380a3889fa6d485dbd6e87"
+    },
+    {
+      "path": "code/check_reproduction_outputs.py",
+      "bytes": 6878,
+      "sha256": "83f7f7110977214dd05fe1736c080e74fb4a81b1132deb9252af0f510ce97b5e"
+    },
+    {
+      "path": "code/ii1_verify.py",
+      "bytes": 10385,
+      "sha256": "3f591a05e393e2379f91f4a6fb0afcaa08de82431feb29b010a382adf97b835a"
+    },
+    {
+      "path": "code/prepare_original_input.py",
+      "bytes": 3285,
+      "sha256": "24309627a7c268481b27133130a50da7f0e2f9a53d0ac6c86a20e1931a018212"
+    },
+    {
+      "path": "code/test_public_boundaries.py",
+      "bytes": 8003,
+      "sha256": "46b1387f64f8c573160320b0e04ae19f4eb9b9cce640c352a345db988fb23fc7"
+    },
+    {
+      "path": "code/test_public_cli_safety.py",
+      "bytes": 9750,
+      "sha256": "a7e99e0202f9c77e174636532d5864986f85e76af5c757dee045243462fd1d52"
+    },
+    {
+      "path": "code/test_public_correspondence_checks.py",
+      "bytes": 2461,
+      "sha256": "2b58d75ed0707d47a1eaa40814fc187e27adef8eb8d363d409cbf131b05cf05d"
+    },
+    {
+      "path": "code/test_public_easy_start.py",
+      "bytes": 3410,
+      "sha256": "0b949d60a29411a9297f7c51c061b02cb8bc5bd5a77241d6513653ba88a33fde"
+    },
+    {
+      "path": "code/test_public_input_preparation.py",
+      "bytes": 812,
+      "sha256": "257c306cc8c619d5a9ecea9a3e7a9d1e6866f166be9ff86be124e2ddbda4af36"
+    },
+    {
+      "path": "code/test_public_manifest.py",
+      "bytes": 3755,
+      "sha256": "51abe7ab3091986493b2c1bebeaccaa4a43fd2049fc23c37a7d9f67a1dd0f670"
+    },
+    {
+      "path": "code/test_public_package.py",
+      "bytes": 2695,
+      "sha256": "bce1f67d540e35308a488744499dbb6de5b1b575e6fcdcff9c8346a0a0392e66"
+    },
+    {
+      "path": "code/test_public_reversal.py",
+      "bytes": 1469,
+      "sha256": "a52d168fb9dd5506200f3bebafebab3fd0339f37ccc5ed22a5d8d1f06e63a9b7"
+    },
+    {
+      "path": "code/test_public_word_annotations.py",
+      "bytes": 8714,
+      "sha256": "dfeb773180f7c47202ff0145d68b8d0178eb472277fc8f6b4715fbdf720b9613"
+    },
+    {
+      "path": "decode.py",
+      "bytes": 8839,
+      "sha256": "650c0368893be3f27b95275666154e34a735e99605dd1309b126957bfadda65f"
+    },
+    {
+      "path": "figures/fig1_key_construction.svg",
+      "bytes": 3649,
+      "sha256": "f1a3ac38628189dfac8bfe6dfa04d005312ff193fd559f25207446cf225ec6d1"
+    },
+    {
+      "path": "figures/fig2_edition_drift.svg",
+      "bytes": 53357,
+      "sha256": "43d06983504a224f0b293a4dd41f9827f7fb9a5c274c1f76572cf84d1b3ca67f"
+    },
+    {
+      "path": "figures/figS1_key_usage.svg",
+      "bytes": 10047,
+      "sha256": "f31ef846bb3aed35b167ba71dde56cdc102e9c0589eae2201cb15e2d605056d7"
+    },
+    {
+      "path": "figures/figS2_window_control.svg",
+      "bytes": 7343,
+      "sha256": "0a021903630ab8483d3f10593d11487d7ffe366799cd0b4cba68f1bcb6572868"
+    },
+    {
+      "path": "figures/figS3_coverage.svg",
+      "bytes": 155197,
+      "sha256": "2b981c8128382fbc4a381a9b94ffeb18d0dc769a54970fc27d824832595a9014"
+    },
+    {
+      "path": "figures/figS4_fold_detection.svg",
+      "bytes": 46804,
+      "sha256": "a6f252202f33de2a1c3e6b340ebb952c3d6f02d34e93e6469c09f9255f2c59e6"
+    },
+    {
+      "path": "figures/figures-data.json",
+      "bytes": 7685,
+      "sha256": "24cc59dde66c1b5d33c1ddc105d50a9d359dc6de1b57a1e6f9aff10bea920214"
+    },
+    {
+      "path": "figures/presentation_updater.py",
+      "bytes": 6613,
+      "sha256": "c72a9558c4853a35602077c0eb0d690693fdb1bdba0be00b9ef96dd7b620abe1"
+    },
+    {
+      "path": "figures/README.md",
+      "bytes": 2678,
+      "sha256": "0b043d0a89dccf5ad3f72bed97a337cd5ad2780cf20b3d60e6d4303edba00505"
+    },
+    {
+      "path": "INPUT_REFERENCE.json",
+      "bytes": 1575,
+      "sha256": "5c28a859931037cd5f0cd8460d50d56084ef754bfa076be8206a27769919a4a5"
+    },
+    {
+      "path": "inputs/corrections.json",
+      "bytes": 390,
+      "sha256": "775bd147b145d3bd1ff26a9c8317a5c191769f575827777f4cf4a91a6d24c5cd"
+    },
+    {
+      "path": "inputs/source_transcription.txt",
+      "bytes": 627,
+      "sha256": "8bfcfb35b57f9b30d09a0c20fe349d07f4f9772341a1587f457a66be60fcfdcf"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1078,
+      "sha256": "7ff23cf682996036e05bda43f6f6669e6c14687b2ca29bdd5a9f5e1e4628e01c"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "bytes": 1052,
+      "sha256": "f5547f2b15883ce22b167cf9f2945773d5e4556c4ac3ce236a315a76a5939c9b"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.md",
+      "bytes": 851,
+      "sha256": "ba2d25eaa919547ca26e3ab1f795b41c6ceb8b4b85dc59166ae5c6d16ac7fef9"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 3036,
+      "sha256": "7eba7c6b6060367e741b861addb4976139f8ccd3550577b16f9a097369b6d850"
+    },
+    {
+      "path": "PACKAGE_CHECK_SCOPE.md",
+      "bytes": 1729,
+      "sha256": "f00e9f39d658f386ed5e8fe447437967fbd277f6496c03b71b29162f541eef5a"
+    },
+    {
+      "path": "paper/AI_USE_DISCLOSURE.md",
+      "bytes": 934,
+      "sha256": "97247e9639bebe93c0ad3d31d55c1bbc4da2455335668a7ae93a24a95447a210"
+    },
+    {
+      "path": "paper/PAPER_A.docx",
+      "bytes": 390846,
+      "sha256": "b8d619da37a1371ca121d0f046878058c219af4a71aa3b3ca6b8b129535058c3"
+    },
+    {
+      "path": "paper/PAPER_A.md",
+      "bytes": 31127,
+      "sha256": "5debb7e3c3edaa4190a0e759f5de88904dc670353621e2cc5ea896672edfb913"
+    },
+    {
+      "path": "paper/PAPER_A.pdf",
+      "bytes": 678213,
+      "sha256": "f472c74bf72864cb14d77f3e76df88d068764c2f40d47de4e78ede914abcb000"
+    },
+    {
+      "path": "paper/PUBLIC_SUPPLEMENT.docx",
+      "bytes": 639866,
+      "sha256": "7ec65aaa528c0d7bf6c42ff6d1fb6d1bf85606c55b800632e20756760d9514bf"
+    },
+    {
+      "path": "paper/PUBLIC_SUPPLEMENT.md",
+      "bytes": 25154,
+      "sha256": "c09479daac511a365e96014a168cd502b9a014725c0e0d659da9dd3cabde1ca8"
+    },
+    {
+      "path": "paper/PUBLIC_SUPPLEMENT.pdf",
+      "bytes": 837076,
+      "sha256": "e2b5b1fd01c708772e1027131d5dd2df02f116577b90edb977516f796bdae41f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12809,
+      "sha256": "d25ff7192402278c7c3222fc32b709c04ae1b653924fa98eab926ed081065cab"
+    },
+    {
+      "path": "RIGHTS_AND_LICENSING.md",
+      "bytes": 1618,
+      "sha256": "49809f66812f4cb9b454e1a2cac7a39a89f2746411068ab36f0ef9fee5e2e26f"
+    }
+  ],
+  "software_version": "1.0.0",
+  "license_scopes": {
+    "MIT": "Original project-owned software and synthetic tests",
+    "CC-BY-4.0": "Original report, supplement and research figures; identified third-party material excluded",
+    "public_domain": "Underlying Swift literary source, identified separately"
+  },
+  "release_tag": "v1.0.0"
+}

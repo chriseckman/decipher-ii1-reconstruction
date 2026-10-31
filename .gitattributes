@@ -1,0 +1,4 @@
+# Preserve manifest bytes across Windows, macOS and Linux checkouts.
+* text=auto eol=lf
+*.pdf -text
+*.docx -text

@@ -1,0 +1,50 @@
+{
+  "source": "Retained reconstruction/control outputs; no cryptanalytic rerun for this candidate",
+  "counts": {
+    "observations": 314,
+    "source": 492,
+    "key": 984,
+    "source_positions_used": 224,
+    "source_positions_unused": 268,
+    "slots_used": 261,
+    "slots_unused": 723,
+    "forward_occurrences": 161,
+    "reverse_occurrences": 153,
+    "forward_source_positions": 139,
+    "reverse_source_positions": 122,
+    "source_positions_used_from_both_halves": 37
+  },
+  "hashes": {
+    "key_source_492": "9eeff566fe707e39486c1bb119d5c82f19566772706342c44803d6079faef29d",
+    "key_984": "571b2327a0ef55d6fc74394b228ffc59e24a00f2ef6f670beb1fa08879eb5466",
+    "plaintext_literal_314": "859f2c3458025e03ad8a425b8e9b9e16f152927b8b34e33300ad1d49d065ee1f"
+  },
+  "controls": [
+    {
+      "family": "F1_twoway_letters_h492",
+      "windows": 454033
+    },
+    {
+      "family": "F1u_twoway_letters_h492_uncorrected",
+      "windows": 454033
+    },
+    {
+      "family": "F2_contiguous_letters_984",
+      "windows": 453541
+    },
+    {
+      "family": "F3_twoway_initials_h492",
+      "windows": 104189
+    },
+    {
+      "family": "F4_contiguous_initials_984",
+      "windows": 103697
+    }
+  ],
+  "E231": {
+    "one_edit_trials": 5,
+    "two_edit_trials": 5,
+    "exact_recoveries_each": 0
+  },
+  "release_scope": "No actual ciphertext, ordered decoded output or photograph; not a self-contained historical replication"
+}
