@@ -6,7 +6,7 @@ A small, text-only Python tool for reproducing the modern reconstruction of **De
 
 The original puzzle was solved by contestants in 1986. This project documents a modern technical reconstruction, not the first historical solution or a general cipher solver. See the [research report](paper/PAPER_A.pdf), [editable report](paper/PAPER_A.docx), [Markdown source](paper/PAPER_A.md), [supplement](paper/PUBLIC_SUPPLEMENT.pdf) and [AI-use disclosure](paper/AI_USE_DISCLOSURE.md).
 
-The project repository is [chriseckman/decipher-ii1-reconstruction](https://github.com/chriseckman/decipher-ii1-reconstruction). Software version **1.0.0** is distributed in the [v1.0.0 release](https://github.com/chriseckman/decipher-ii1-reconstruction/releases/tag/v1.0.0). The accompanying [research report](paper/PAPER_A.pdf) and supplement are prepared for publication on Zenodo; no Zenodo DOI or deposit is claimed yet. Original code is MIT-licensed and original report/figure material is licensed CC BY 4.0, with third-party exclusions; see [licensing](LICENSE_STATUS.md).
+The project repository is [chriseckman/decipher-ii1-reconstruction](https://github.com/chriseckman/decipher-ii1-reconstruction). Software version **1.0.0** is distributed in the [v1.0.0 release](https://github.com/chriseckman/decipher-ii1-reconstruction/releases/tag/v1.0.0). The accompanying [research report and supplement are published on Zenodo](https://doi.org/10.5281/zenodo.23844582) (31 October 2026). Original code is MIT-licensed and original report/figure material is licensed CC BY 4.0, with third-party exclusions; see [licensing](LICENSE_STATUS.md).
 
 ## Quick start
 
@@ -145,6 +145,10 @@ Actual-message reproduction requires separately obtaining the original numerical
 
 The key construction intentionally enables readers who obtain the ciphertext elsewhere to reconstruct the message. Public access to the ciphertext does not itself grant redistribution rights. The report quotes only an approved 21-character opening for scholarly commentary; third-party quotations are excluded from the CC BY 4.0 license on original report material. See [NOTICE.md](NOTICE.md), [rights inventory](RIGHTS_AND_LICENSING.md) and [licensing status](LICENSE_STATUS.md).
 
-Please cite Christopher A. Eckman's *An Independent Reconstruction of Decipher II, Message 1 (1985–86)* as the principal research report. [CITATION.cff](CITATION.cff) records the preferred report citation and actual repository URL. The corresponding software release is [v1.0.0](https://github.com/chriseckman/decipher-ii1-reconstruction/releases/tag/v1.0.0). **The report DOI and report publication date are pending** and will be added only after they exist. Do not cite a provisional DOI or interpret a DOI as external peer review.
+Please cite the research report as the principal publication:
+
+> Eckman, C. A. (2026). *An Independent Reconstruction of Decipher II, Message 1 (1985–86).* Zenodo. https://doi.org/10.5281/zenodo.23844582
+
+Published **31 October 2026** as a non-peer-reviewed research report. [CITATION.cff](CITATION.cff) provides the preferred report citation and software metadata. The corresponding software release is [v1.0.0](https://github.com/chriseckman/decipher-ii1-reconstruction/releases/tag/v1.0.0). A DOI identifies the deposited report; it does not indicate external peer review.
 
 Christopher A. Eckman — Independent Researcher — [ORCID 0009-0008-3325-4513](https://orcid.org/0009-0008-3325-4513). No external funding. No competing interests.

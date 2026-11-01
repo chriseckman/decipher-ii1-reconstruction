@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the research report in preferred-citation when published. Its DOI and publication date remain pending; this file identifies the accompanying versioned verification software."
+message: "Please cite the published research report in preferred-citation. This file also identifies the accompanying versioned verification software."
 type: software
 version: 1.0.0
 date-released: 2026-10-31
@@ -26,4 +26,10 @@ preferred-citation:
       given-names: Christopher A.
       affiliation: Independent Researcher
       orcid: "https://orcid.org/0009-0008-3325-4513"
-  notes: "Non-peer-reviewed research report; DOI and publication date pending."
+  year: 2026
+  date-released: "2026-10-31"
+  doi: "10.5281/zenodo.23844582"
+  url: "https://zenodo.org/records/23844582"
+  publisher:
+    name: Zenodo
+  notes: "Non-peer-reviewed research report; published 31 October 2026."

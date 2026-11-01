@@ -32,8 +32,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1306,
-      "sha256": "14f20c8bd84743ef6f879e2e4a6112bd22c5a30f0f7479674a1a496806f7ce18"
+      "bytes": 1405,
+      "sha256": "3161d3b022643b1f8d33753696357393a532f814c0fdbbb337c704b3ce7ee2ef"
     },
     {
       "path": "code/check_manifest.py",
@@ -232,8 +232,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12809,
-      "sha256": "d25ff7192402278c7c3222fc32b709c04ae1b653924fa98eab926ed081065cab"
+      "bytes": 12835,
+      "sha256": "5b33d28bd05830c9f1fe5f6b63e19e35019ad15d977312d9b4c4f5f04938af53"
     },
     {
       "path": "RIGHTS_AND_LICENSING.md",
