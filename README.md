@@ -131,13 +131,23 @@ py -3 -B code/check_public_materials.py
 py -3 -B -m unittest discover -s code -p "test_public_*.py" -v
 ```
 
-On macOS / Linux, substitute `python3` for `py -3`. Run the **manifest check on a pristine extracted release or fresh checkout**, before adding your `numbers.txt`. It checks both hashes and the strict public-file inventory: a local `numbers.txt` or generated output is intentionally not allowlisted and causes that check to fail. `.gitignore` does not make private files eligible for public release. Keep the pristine copy for release checking and use a separate working copy for decoding.
+On macOS / Linux, substitute `python3` for `py -3`. Run the **manifest check on a pristine extracted release or fresh checkout**, before adding your `numbers.txt`. It checks both hashes and the strict public-file inventory: a local `numbers.txt` or generated output is intentionally not allowlisted and causes that check to fail. `.gitignore` does not make private files eligible for public release. On the main branch, `MANIFEST.json` also lists documentation added after the release, such as Addendum 1; the v1.0.0 release ZIP carries its own frozen manifest. Keep the pristine copy for release checking and use a separate working copy for decoding.
 
 Run the checkers without `-O` or `-OO` and with `PYTHONOPTIMIZE` unset; they refuse optimized execution. The remaining public checks validate source/key integrity, synthetic cases, parsing, correction boundaries and implementation behavior. They do not need the historical ciphertext, do not reveal the complete message and do not rerun historical whole-book or GPU searches.
 
 For the lower-level workflow, `code/prepare_original_input.py` authenticates and canonicalizes an original transcription; `code/ii1_verify.py` implements normalization, construction and decoding; and `code/check_reproduction_outputs.py` checks an output directory. The simple `decode.py` command delegates to those implementations rather than providing a second decoding algorithm. The public manifest inventories release files and hashes; it is not a scientific certification or rights grant.
 
 For outputs produced with an alternate `decode.py --source` file, pass that same source to the standalone checker: `py -3 -B code/check_reproduction_outputs.py OUTPUT_DIR --source ACTUAL_SOURCE`. On macOS / Linux, use `python3`. The decoder supplies its actual source to the checker automatically; the standalone checker otherwise defaults to the bundled source. All three source-word annotation fields are checked against that source.
+
+## Independent Replication and Subsequent Findings
+
+On 4 November 2026 the independent researcher umbrellaid reported further checks of this reconstruction in a [public GitHub discussion](https://github.com/umbrellaid/decipher-money-hunt-research/issues/1#issuecomment-6631781113) ([clarification](https://github.com/umbrellaid/decipher-money-hunt-research/issues/1#issuecomment-6631922155)). [Addendum 1](paper/addenda/ADDENDUM_01.pdf) ([Markdown source](paper/addenda/ADDENDUM_01.md)) documents those findings and separates what was rechecked from what is reported.
+
+- **Computational replication.** A separately written implementation of the published construction, importing no code from this repository, reproduced the published source, key and plaintext hashes and passed all 19 of its checks. It used this repository's published source paragraph and corrections.
+- **Numerical transcription.** umbrellaid's separately made 314-value transcription differs from the original input only at observation 306, where it reads the photograph-supported `388`. With that value set to the compilation's `338`, it reproduces the published input fingerprint.
+- **Textual witness.** umbrellaid identified Project Gutenberg eBook #829 as a third witness of the key paragraph. It normalizes to 491 letters rather than 492 (checked directly for the addendum), so it does not reproduce the key, which reinforces the report's finding that exact source wording matters.
+
+These results support the reproducibility of the specified reconstruction. The complete decode remains conditional on the probable reading `830` at observation 169, where umbrellaid's transcription also reads `330`. The addendum does not change the reconstruction, the software or the v1.0.0 release. It is a separate supplement to the report; no DOI is claimed for it yet.
 
 ## Scope, attribution and citation
 
