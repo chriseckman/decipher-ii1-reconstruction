@@ -147,7 +147,7 @@ On 4 November 2026 the independent researcher umbrellaid reported further checks
 - **Numerical transcription.** umbrellaid's separately made 314-value transcription differs from the original input only at observation 306, where it reads the photograph-supported `388`. With that value set to the compilation's `338`, it reproduces the published input fingerprint.
 - **Textual witness.** umbrellaid identified Project Gutenberg eBook #829 as a third witness of the key paragraph. It normalizes to 491 letters rather than 492 (checked directly for the addendum), so it does not reproduce the key, which reinforces the report's finding that exact source wording matters.
 
-These results support the reproducibility of the specified reconstruction. The complete decode remains conditional on the probable reading `830` at observation 169, where umbrellaid's transcription also reads `330`. The addendum does not change the reconstruction, the software or the v1.0.0 release. It is a separate supplement to the report; no DOI is claimed for it yet.
+These results support the reproducibility of the specified reconstruction. The complete decode remains conditional on the probable reading `830` at observation 169, where umbrellaid's transcription also reads `330`. The addendum does not change the reconstruction, the software or the v1.0.0 release. It is a separate supplement to the report, published on Zenodo with its own DOI, [10.5281/zenodo.23963541](https://doi.org/10.5281/zenodo.23963541). Cite the report for the reconstruction and the addendum for these later findings.
 
 ## Scope, attribution and citation
 
@@ -160,5 +160,9 @@ Please cite the research report as the principal publication:
 > Eckman, C. A. (2026). *An Independent Reconstruction of Decipher II, Message 1 (1985–86).* Zenodo. https://doi.org/10.5281/zenodo.23844582
 
 Published **31 October 2026** as a non-peer-reviewed research report. [CITATION.cff](CITATION.cff) provides the preferred report citation and software metadata. The corresponding software release is [v1.0.0](https://github.com/chriseckman/decipher-ii1-reconstruction/releases/tag/v1.0.0). A DOI identifies the deposited report; it does not indicate external peer review.
+
+The separate supplement is cited as:
+
+> Eckman, C. A. (2026). *Addendum 1: Independent Replication, Textual Witnesses, and Clue Interpretation.* Supplement to *An Independent Reconstruction of Decipher II, Message 1 (1985–86).* Zenodo. https://doi.org/10.5281/zenodo.23963541
 
 Christopher A. Eckman — Independent Researcher — [ORCID 0009-0008-3325-4513](https://orcid.org/0009-0008-3325-4513). No external funding. No competing interests.
